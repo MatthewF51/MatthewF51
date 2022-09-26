@@ -24,3 +24,13 @@ h3 {
     column-gap: 20px;
     row-gap: 20px;
 }
+
+.website {
+    color: coral;
+    background-color: blueviolet;
+}
+
+.website img {
+    width: 30%;
+    height: 30%;
+}
