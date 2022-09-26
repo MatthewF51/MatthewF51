@@ -24,6 +24,8 @@ nav a {
     width: 15%;
     padding-left: 2.5%;
     padding-right: 2.5%; 
+    text-decoration: none;
+    color: coral;
 }
 
 nav a:hover {
