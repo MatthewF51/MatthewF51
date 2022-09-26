@@ -47,8 +47,6 @@ h3 {
 #websites_grid {
     display: grid;
     grid-template-columns: auto auto auto;
-    column-gap: 20px;
-    row-gap: 20px;
     text-decoration: none;
     background-color: #565656;
 }
@@ -56,11 +54,12 @@ h3 {
 .website {
     color: #FFFFFF;
     text-decoration: none;
-    background-color: #565656;
+    background-color: #9E9E9E;
+    margin: 5%;
 }
 
 .website a {
-    background-color: #565656;
+    background-color: #9E9E9E;
 }
 
 .website img {
