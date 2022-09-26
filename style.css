@@ -21,6 +21,9 @@ nav {
 
 nav a {
     background-color: darkviolet;
+    width: 15%;
+    padding-left: 2.5%;
+    padding-right: 2.5%; 
 }
 
 nav a:hover {
@@ -37,6 +40,7 @@ h3 {
     display: grid;
     column-gap: 20px;
     row-gap: 20px;
+    background-color: brown;
 }
 
 .website {
