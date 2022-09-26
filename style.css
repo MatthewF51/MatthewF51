@@ -1,3 +1,15 @@
 #websites_grid {
     display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    color:darkslateblue;
+  }
+
+  h3 {
+    text-align: center;
+    color: aqua;
   }
