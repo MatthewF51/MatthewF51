@@ -1,15 +1,26 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color:darkslateblue;
+}
+
+nav {
+    display: inline-block;
+    border: 5px;
+    list-style-type: none;
+    background-color: darkviolet;
+}
+
+h3 {
+    text-align: center;
+    color: aqua;
+}
+
 #websites_grid {
     display: grid;
     column-gap: 20px;
     row-gap: 20px;
-  }
-
-  h1 {
-    text-align: center;
-    color:darkslateblue;
-  }
-
-  h3 {
-    text-align: center;
-    color: aqua;
-  }
+}
