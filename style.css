@@ -8,6 +8,7 @@ h1 {
 }
 
 nav {
+    text-align: center;
     display: inline-block;
     border: 5px;
     list-style-type: none;
