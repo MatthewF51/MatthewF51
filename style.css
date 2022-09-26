@@ -1,10 +1,10 @@
 * {
-    background-color: black;
+    background-color: #141414;
 }
 
 h1 {
     text-align: center;
-    color:darkslateblue;
+    color:#FFFFFF;
 }
 
 nav {
@@ -16,37 +16,38 @@ nav {
     display: inline-block;
     border: 5px;
     list-style-type: none;
-    background-color: darkviolet;
+    background-color: #9E9E9E;
 }
 
 nav a {
-    background-color: darkviolet;
     width: 15%;
     padding-left: 2.5%;
     padding-right: 2.5%; 
     text-decoration: none;
-    color: coral;
+    color: #141414;
 }
 
 nav a:hover {
-    background-color: rgb(92, 67, 120);
-    color: black;
+    background-color: #FBA92C;
+    color: #141414;
   }
 
 h3 {
     text-align: center;
-    color: aqua;
+    color: #FFFFFF;
 }
 
 #websites_grid {
     display: grid;
     column-gap: 20px;
     row-gap: 20px;
+    background-color: #565656;
 }
 
 .website {
-    color: coral;
-    background-color: blueviolet;
+    color: #141414;
+    text-decoration: none;
+    background-color: #FBA92C;
 }
 
 .website img {
