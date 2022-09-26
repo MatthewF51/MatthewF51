@@ -1,5 +1,6 @@
-* {
+body {
     background-color: #141414;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h1 {
@@ -16,18 +17,23 @@ nav {
     display: inline-block;
     border: 5px;
     list-style-type: none;
-    background-color: #9E9E9E;
+    background-color: #565656;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 nav a {
     width: 15%;
     padding-left: 2.5%;
     padding-right: 2.5%; 
-    text-decoration: none;
-    color: #141414;
 }
 
-nav a:hover {
+a:hover {
     background-color: #FBA92C;
     color: #141414;
   }
@@ -35,19 +41,26 @@ nav a:hover {
 h3 {
     text-align: center;
     color: #FFFFFF;
+    margin-top: 5%;
 }
 
 #websites_grid {
     display: grid;
+    grid-template-columns: auto auto auto;
     column-gap: 20px;
     row-gap: 20px;
+    text-decoration: none;
     background-color: #565656;
 }
 
 .website {
-    color: #141414;
+    color: #FFFFFF;
     text-decoration: none;
-    background-color: #FBA92C;
+    background-color: #565656;
+}
+
+.website a {
+    background-color: #565656;
 }
 
 .website img {
