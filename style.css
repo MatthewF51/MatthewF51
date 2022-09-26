@@ -8,12 +8,21 @@ h1 {
 }
 
 nav {
+    position: absolute;
+    width: 50%;
+    margin-left: 25%;
+    padding: 0px;
     text-align: center;
     display: inline-block;
     border: 5px;
     list-style-type: none;
     background-color: darkviolet;
 }
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
 
 h3 {
     text-align: center;
