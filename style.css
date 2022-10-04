@@ -44,7 +44,7 @@ h3 {
     margin-top: 5%;
 }
 
-#websites_grid {
+#item_grid {
     display: grid;
     grid-template-columns: auto auto auto;
     text-decoration: none;
@@ -61,14 +61,13 @@ h3 {
     text-align: center;
 }
 
-.website a {
-    background-color: #9E9E9E ;
-    text-align: center;
-}
-
 .website img {
     width: 30%;
     height: 30%;
     text-align: center;
     align-items: center;
+}
+
+.website:hover {
+    background-color: #FBA92C;
 }
